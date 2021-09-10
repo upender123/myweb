@@ -24,6 +24,12 @@
 		</dependency>
 
 	</dependencies>
+	
+	<distributionManagement>
+		 <snapshotRepository>
+		    <id>nexusRepo</id>
+		    <url>http://3.80.112.118:8081/repository/sample-snapshot/</url>
+		 </snapshotRepository>
 		
 		<repository>
 		    <id>nexusRepo</id>
